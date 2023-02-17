@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Kanit', sans-serif;
+}
+/* Body CSS */
+body {
+    background-image: url(/Assets/pexels-maxyne-barcel-10402282.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+/* Nav Bar to flex */
+nav {
+    display: flex;
+    align-items: center;
+    gap: 360px;
+}
+
+/* nav unordered list flex-box*/
+nav ul {
+    display: flex;
+    align-items: center;
+    
+}
+
+/* nav list  */
+
+nav ul li {
+    padding: 30px;
+    
+}
+
+/* hypeylink text */
+nav ul li a{
+    text-decoration: none;
+    color:#ffc233;
+}
+
+/* hyperlink event   */
+nav ul li a:hover {
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+/* nav Logo  */
+nav img {
+    margin-left: 30px ;
+    
+}
+
+/* Nav button */
+nav ul button {
+    margin-left: 300px;
+}
+/* All buttons */
+button { 
+    background-color: #ee5f56;
+    color: rgb(216, 213, 213);
+    border: none;
+    border-radius: 3px;
+}
+ /* nav button sizing */
+.btn-nav {
+    height: 35px;
+    width: 70px;
+}
+
+/* nav button event */
+.btn-nav:hover {
+    cursor:pointer;
+    color: #ee5f56;
+    background-color:#ebe5e5;
+}
+
+/* main left division */
+.left-div {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color:#ffc233;
+    /* margin: 5% 10% 2% 10%; */
+    font-size: 80px;
+    font-weight: 900;
+}
+
+/* main right division */
+.right-div {
+    display: flex;
+    justify-content: center;
+
+}
+/* main button  */
+
+.btn-main{
+    width: 200px;
+    height: 50px;
+    font-size: large;
+}
+
+/* Main button event  */
+.btn-main:hover {
+    cursor:pointer;
+    color: #ee5f56;
+    background-color: #ebe5e5;
+}
+
+/* Footer  */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+/* main button sizing */
+footer img {
+    width: 120px;
+    height: 120px;
+}
+

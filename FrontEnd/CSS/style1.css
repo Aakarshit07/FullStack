@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* This is universal selectors */
+}
+
+/* Element selector */
+
+/* h1{
+    color: #808080;
+}
+p{
+    color: red;
+} */
+
+/* Class Selector */
+.pra{
+    color: chocolate;
+}
+.font-size{
+    font-size: 40px;
+}
+
+/* ID Selector */
+
+#id1{
+    font-size: 20px;
+    color: azure;
+    background-color: black;
+}
+
+/* Selector List */
+.class1 , .class2, .class3{
+    text-align: center;
+}

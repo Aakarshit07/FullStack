@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Regristration form</title>
+</head>
+<body>
+    <form method="post" target="_blank" action="/signup">
+        <fieldset > 
+            <!-- Can also use Post or get methods to define htttp method -->
+            <legend>User details!</legend>
+            <label for="username">Enter your username</label>
+            <input type="text" name="username" id="username" value="John" readonly disabled>
+            <br>
+            <label for="useremail">Enter your email</label>
+            <input type="email" name="useremail" id="useremail" placeholder="a@example.com"  autofocus>
+            <br>
+            <label for="userpassword">Enter your password</label>
+            <input type="password" name="userpassword" id="userpassword">
+            <br>
+            <label for="usergender">Select your gender: </label><br>
+            <label for="usergender">Male</label>
+            <input type="radio" name="usergender" id="male" value="male">
+            <br>
+            <label for="usergender">Female</label>
+            <input type="radio" name="usergender" id="Female" value="female">
+            <br>
+            <input type="number" min="0" max="5">
+            <input type="submit" value="Submit Form">
+            <br>
+
+
+        </fieldset>   
+    </form>
+</body>
+</html>

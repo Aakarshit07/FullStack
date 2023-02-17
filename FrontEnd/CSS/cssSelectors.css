@@ -1,0 +1,32 @@
+/* Descendent Selector */
+main p{
+    color: red;
+}
+/* Child Selector */
+h1 > p {
+    color: blue;
+}
+
+/* Adjcent Sibling selector */
+
+/* section + p{
+    color:firebrick;
+} */
+
+
+/* General Sibling selector */
+section ~ p{
+    color:darkcyan;
+}
+
+/* Attribute selector */
+[target="_blank"]{
+    color:fuchsia;
+    text-decoration: none;
+}
+
+/* Attribute tilde means ( ~ ) selector */
+
+[alt~="Skills"]{
+    background-color: black;
+}

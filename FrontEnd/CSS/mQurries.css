@@ -1,0 +1,63 @@
+body{
+    background-color: yellowgreen;
+}
+
+div{
+    font-size: xx-large;
+    text-align: center;
+}
+
+div::after{
+    content: 'welcome to the demo'
+}
+
+@media (max-width: 400px) {
+    body{
+        background-color:rgb(255, 255, 255);
+    }
+    div::after{
+        content: 'Very Small';
+    }
+
+}
+@media (400px <= width <= 770px){
+    body{
+        background-color:blueviolet;
+
+    }
+    div::after{
+        content: 'Mid screen ';
+    }
+}
+
+@media (min-width: 770px) {
+    /* 
+       if viewport is atleast 770px 
+       then this style will apply
+    */
+   
+    body{
+       background-color:khaki;
+    }
+   
+    div::after {
+       content: 'smaller screen'
+    }
+   
+   }
+
+@media (min-width: 900px) {
+ /* 
+    if viewport is atleast 900px 
+    then this style will apply
+ */
+
+ body{
+    background-color: #808080;
+ }
+
+ div::after {
+    content: 'woah its worling'
+ }
+
+}

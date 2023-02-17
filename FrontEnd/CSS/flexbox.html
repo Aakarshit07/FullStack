@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .cont{
+            
+            display: flex;
+            height: 300px;
+            border: 2px solid seagreen;
+            /* flex-direction: row; */
+            /* flex-wrap: wrap ; */
+            /* flex-flow: start nowrap */
+            /* flex flow help to give flex-driection and flex-wrapin one property */
+            /* justify-content: center; only works on main axis */
+            /* align-items: center;    only works on cross axis  */ 
+            /* align-content: center;
+            gap: 10px;  */
+            /* row-gap: 10px; */
+            /* column-gap: 10px; */
+
+        }
+        .box{
+            width: 500px;
+            height: 100px;
+
+        }
+
+        .box1{
+            background-color:blueviolet;
+            /* order: 1; */
+            /* flex-grow: 10; */
+        }
+
+        .box2{
+            background-color: rgb(247, 144, 47);
+            /* order: 3; */
+            /* flex-grow: 5; */
+            /* flex-shrink: 5; */
+            align-self: center;
+        }
+
+        .box3{
+            background-color: rgb(255, 67, 183);
+            /* order: 2; */
+            /* flex-grow: 2; */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="box box1">Box1</div>
+        <div class="box box2">Box2</div>
+        <div class="box box3">Box3</div>
+    </div>
+
+</body>
+</html>

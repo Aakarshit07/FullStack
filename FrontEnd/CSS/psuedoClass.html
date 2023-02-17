@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo class and Elements</title>
+    <style>
+        /* p:hover{
+            background-color: black;
+            color: yellowgreen;
+        } */
+
+        /* .hover:hover{
+            background-color: black;
+            color: yellowgreen;
+        } */
+
+        /* input:focus{
+            color: royalblue;
+            background-color: gainsboro;
+            font-size: 16px;
+        } */
+
+        /* a:hover{
+            background-color: palevioletred;
+        }
+        a:active{
+            color: rgb(11, 236, 236);
+        } */
+        /* a:visited{
+            background-color: olivedrab;
+            color: antiquewhite;
+        } */
+        /* a:first-child{
+            color:crimson;
+            background-color: azure;
+         }  */
+        
+          /* for even its 2n or even and for odd its 2n+1 or just odd */
+          /* a:nth-child(2n) {
+             color: yellow;
+             background-color: black;
+         }    */
+        
+        p::first-line{
+            background-color: #808080;
+        }
+        p::first-letter{
+            color: deeppink;
+        }
+
+        p::after{
+            color: purple;
+            background-color: yellow;
+            content: " -HELLO WORLD";
+        }
+        p::before{
+            color: rgb(248, 212, 10);
+            background-color: rgb(146, 6, 88);
+            content: " F HELLO WORLD";
+        }
+        p::selection{
+            background-color: rgb(255, 1, 1);
+            color: rgb(255, 255, 255);   
+        }
+    </style>
+</head>
+<body>
+    <p class="hover">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt illum nam voluptatem corporis eveniet quaerat reiciendis esse dolorum et
+    </p>
+
+    <input type="text" />
+
+    <nav>
+        <a href="https://www.google.co.in">Google</a>
+        <a href="https://www.google.co.in">Google</a>
+        <a href="https://www.google.co.in">Google</a>
+        <a href="https://www.google.co.in">Google</a>
+        <a href="https://www.google.co.in">Google</a>
+    </nav>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo ex, est amet tenetur distinctio praesentium velit ipsum excepturi aliquid eaque eveniet commodi, facilis eos dolor?</p>
+</body>
+</html>

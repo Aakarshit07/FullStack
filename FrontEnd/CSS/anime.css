@@ -1,0 +1,91 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+    /* these properties gonna make animation work */
+    position: relative;
+    /* change according to the keyframes animation  */
+    /* animation-name: colorchange;
+    animation-duration: 8s;
+    animation-delay: 3s; */
+    /* animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+    /* animation-fill-mode: backwards; */
+    /* animation-fill-mode: forwards;
+    animation-fill-mode: both; */
+
+    /* shorthand for above all animation properties  */
+    animation: colorchange 8s linear 3s infinite reverse;
+
+}
+
+/* #ease{
+    animation-timing-function: ease;
+
+}
+
+#ease-in {
+    animation-timing-function: ease-in;
+
+}
+
+#ease-out {
+    animation-timing-function: ease-out;
+
+}
+
+#ease-in-out{
+    animation-timing-function: ease-in-out;
+
+}
+#linear{
+    animation-timing-function: linear;
+
+} */
+
+@keyframes colorchange {
+    /* from {
+        background-color: chartreuse;
+        top: 0px;
+        left: 0px;
+
+    }
+
+    to {
+        background-color: cornflowerblue;
+        top: 0px;
+        left: 200px;
+    } */
+    0% {
+        background-color: chartreuse;
+        top: 0px;
+        left: 0px;
+
+    }
+
+    25% {
+        background-color: cornflowerblue;
+        top: 0px;
+        left: 200px;
+    }
+    50% {
+        background-color:darkorange;
+        top: 200px;
+        left: 200px;
+
+    }
+    75% {
+        background-color:darkorange;
+        top: 200px;
+        right: 0px;
+
+    }
+
+    100% {
+        background-color: rgb(217, 72, 247);
+        top: 0px;
+        left: 0px;
+    }
+    
+}

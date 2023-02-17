@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions and tooltips</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            transition: width 2s, height 2s, background-color 2s;
+            /* in transition property first we write teh things we wanna change like width and then time in how much time it will take. */
+            
+            /* transition-timing-function:  ease-out; */
+            
+            transition-delay: 3s;
+        }
+        div:hover{
+            width: 200px;
+            height: 275px;
+            background-color: indianred;
+        }
+    </style>
+</head>
+<body>
+    <!-- Transitions -->
+    <div></div>
+    <p title="Hello World">Lorem, ipsum.
+    </p>
+</body>
+</html>
