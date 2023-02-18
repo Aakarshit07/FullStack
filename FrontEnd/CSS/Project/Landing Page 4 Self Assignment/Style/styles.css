@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #ffffff;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* header css */
+header {
+    height: 15vh;
+    width: 100vw;
+    
+}
+/* navigation css */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* nav brand logo */
+nav img {
+    margin-left: 2%;
+    height: 80px;
+    width: 90px;
+}
+/* unordered list css */
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 40%;
+    gap: 40px;
+}
+
+/* list in nav */
+nav ul li {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* hyperlinks in nav list */
+nav ul li a{
+   text-decoration: none;
+   color: #000000;
+   font-weight: 600;
+}
+/* nav list Hover event */
+nav ul li a:hover{
+    cursor:pointer;
+    font-weight: 800;
+    font-size: large;
+
+ }
+
+/* nav bar button */
+.header-btn{
+    /* margin-left: 40%; */
+    margin-right: 64px;
+    width: 90px;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5955b3;
+    color: #fbfbfc;
+    font-weight: 500;
+
+}
+/* all button hover event  */
+button:hover{  
+    cursor: pointer;
+    background-color: #fbfbfc;
+    color: #5955b3;
+}
+
+/* hero-section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+
+/* Left Section  */
+.left-section h1 {
+    color: #3c2e60;  
+    font-size: 50px; 
+}
+/* left section header Span */
+span{
+    color: #5955b3;
+}
+
+/* left-section paragraph */
+.left-section p {
+    font-size: small;
+    color: #888585;
+    margin: 20px 0px;
+}
+
+/* Main section button */
+.main-btn{
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5955b3;
+    color: #fbfbfc;
+    font-weight: 500;
+    margin: 55px 0px;
+}
+
+
+/* Right section */
+.right-section {
+    display: flex;
+    justify-content: end;
+    
+}
+/* main section logo */
+.main-logo {
+    height: 500px;
+    width: 700px;
+
+}
