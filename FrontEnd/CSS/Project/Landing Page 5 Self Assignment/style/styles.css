@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background-image: url(/assets/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1370px 700px;
+}
+
+header {
+    height: 9vh;
+    width: 100vw;
+    background-color: #000000;   
+}
+
+nav {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-logo {
+    margin-left: 2%;
+    height: 30px;
+    justify-content: left;
+}
+
+/* nav bar heading slash  */
+.nav-h1 {
+    margin-right: 35px;
+    color: rgb(136, 132, 132);
+    font-size: 35px;
+    align-items: center;
+    font-weight:lighter;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+/* nav bar list */
+nav ul li a {
+    text-decoration: none;
+    
+}
+
+/* nav button */
+.nav-btn {
+    border: none;
+    background-color: #b90ec5;
+    height: 33px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+/* hero section */
+.text-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* main-text-section */
+.main-content h1 {
+    margin: 10% 20% 3% 23%;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+/* Main text section paragraph */
+.main-content p {
+    margin: 2% 20% 3% 27%;
+    justify-content: center;
+    align-items: center;
+}
+/* main div buttton section */
+.main-btn-section{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* main section button  */
+.main-btn {
+    border: none;
+    background-color: #b90ec5;
+    height: 45px;
+    width: 200px;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 6px;
+
+}
+
+/* All button hover event */
+.btn:hover {
+    cursor: pointer;
+    border: none;
+    background-color: #ffffff;
+    color: #b90ec5;  
+}
+/* all nav list  hover event */
+nav ul li a:hover {
+    cursor: pointer;
+    border: none;
+    background-color: #ffffff;
+    color: #b90ec5;  
+}
