@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'DM Serif Display', serif;
+}
+/* Body  */
+body{
+    background-color: #111827;
+    color: white;
+}
+nav img {
+    display: none;
+    height: 15px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px; 
+    height: 8vh;
+    margin-right: 3%;  
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  margin-top: 6px;
+  font-size: small;
+
+}
+
+.nav-home-btn {
+  border: none;
+  border-radius: 10px;
+  background-color: #514ac4;
+  color: white;
+  width: 40px;
+  font-size: small;
+}
+
+/* upper hero section */
+.upper-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.left-div-sec1 {
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+.left-div-sec1-img {
+    height: 27px;
+    width: 27px;
+}
+
+.first-h1{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.second-h1 {
+    font-size: 28px;
+}
+
+.para1 {
+    color: #b6b654;
+    font-size: smaller;
+}
+
+.right-div-sec1-img {
+    margin-left: 5px;
+    width: 230px;
+    height: 190px;
+}
+.content-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.content-title h2 {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #0d00ff;
+    text-underline-position: below;
+    text-underline-offset: 6px;
+
+}
+
+/* Lower hero Section  */
+
+.div-part1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 5px;
+}
+
+.div-part1 img {
+    height: 80px;
+
+}
+
+.div-part2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 5px;
+}
+  
+.div-part2 img {
+    height: 80px;
+
+}
+
+.title-project-first-2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title-project1 {
+    font-size: smaller;
+    font-weight: 200;
+    margin-left: 20px;
+}
+
+
+.title-project-last-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-project2 {
+    font-size: smaller;
+    font-weight: 200;
+    margin-left: 20px;
+}
+
+/* Footer */
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footer-title h3 {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #0d00ff;
+    text-underline-position: below;
+    text-decoration-thickness: 4px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    margin: 10px;
+    gap: 5px;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 768px){
+    /* topnav bar  */
+    nav ul {
+        display: none;
+    }
+    nav img {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 3%;
+    }
+    /* Content tile for hero section */
+    .content-title h2 {
+        font-size: 13px;
+        font-weight: 200;
+        text-underline-offset: 3px; 
+    }
+    
+    /* Upper Hero section  */
+    .upper-section  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-div-sec1 {
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+    }
+    .first-h1 {
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .second-h1 {
+        font-size: 17px;
+        font-weight: 300;
+    }
+    .right-div-sec1-img {
+        margin-left: 5px;
+        width: 90px;
+        height: 80px;
+    }
+
+    /* Lower Hero Section */
+
+    .div-part1 {
+        display: flex;
+        flex-direction: column;
+    } 
+    .title-project-first-2{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        font-weight: 100;     
+    }
+    
+    .title-project1 {
+        margin-right: 16px;
+    }
+
+    .title-project2 {
+        margin-right: 16px;
+    }
+
+    .div-part1 img {
+        height: 50px;
+    
+    }
+    
+    .div-part2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .title-project-last-2{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        font-weight: 100;
+    }
+
+    .div-part2 img {
+        height: 50px;    
+    }
+    
+    /* Footer */
+    .footer-title {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2px;
+        
+    }
+    .footer-title h3 {
+        font-size: 11px;
+        text-decoration-thickness: 5px;
+        font-weight: 100;
+    }
+    
+    .icons {
+        display: flex;
+        height: 12px;
+        margin: 2px;
+        gap: 5px;
+    }
+}
