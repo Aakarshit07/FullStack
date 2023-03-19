@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+
+
+}
+/* removing default styling of li items */
+li {
+    list-style: none;
+}
+/* removing a default decoraiton of a tags */
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/* giving default design to every button */
+button {
+    background-color: #6663e9;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+
+}
+
+body {
+    background-color: #f6f8fa;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./Photos/mainBackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+    position: relative;
+}
+
+/* designing the navigation menu */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+
+nav img {
+    width: 100px;
+    height: 120px;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li a {
+    color: #ffffff;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+hr {
+    margin: 0 100px;
+}
+
+/* desiging the div inside the header */
+header div {
+    color: #ffffff;
+    margin-left: 182px;
+    margin-top: 85px;
+}
+
+header div h1 {
+    font-size: 72px;
+    margin-bottom: 30px;
+}
+
+header div p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    width:  350px;
+    font-weight: 500;
+
+}
+
+/* adding style to the mutliple logo container */
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f6f8fa;
+    margin: 0 35px;
+    height: 190px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 100px;
+}
+.logo img {
+    width: 156px;
+    height: 38px;
+}
+
+/* designing the wrapper section of the cards */
+.crads-container h1 {
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    position: relative;
+}
+
+/* designing te card image */
+.card-img {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* giving diff margin top value toposition cards */
+.cards-wrapper div:nth-child(2) {
+    margin-top: 50px;
+}
+.cards-wrapper div:nth-child(3) {
+    margin-top: 100px;
+}
+.cards-wrapper div:nth-child(4) {
+    margin-top: 160px;
+}
+.cards-wrapper div:nth-child(5) {
+    margin-top: 100px;
+}
+.cards-wrapper div:nth-child(6) {
+    margin-top: 40px;
+}
+.cards-wrapper div:nth-child(7) {
+    margin-top: 40px;
+}
+.cards-wrapper div:nth-child(8) {
+    margin-top: 100px;
+}
+.cards-wrapper div:nth-child(9) {
+    margin-top: 160px;
+}
+
+.card-img img {
+    width: 356px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.card-box{
+    width: 324px;
+    height: 119px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 120px rgba(58, 86, 78, 0.2);
+    position: absolute;
+    bottom: -60px;
+    padding: 15px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-box button {
+    font-weight: 800;
+    font-size: 15px;
+    width: 114px;
+    height: 52px;
+}
+
+.card-box div h3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.card-box div p {
+    font-weight: 800;
+    font-size: 20px;
+    color: #6663e8;    
+    text-shadow: 0p 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+/* adding style to left container of first feature section  */
+.feature-sec {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-sec div {
+    width: 50%;
+}
+
+.first-feature-sec div:first-child img:first-child {
+    position: absolute;
+    left: -80px;
+    z-index: -1;
+    width: 726px;
+    height: 456px;
+}
+
+.feature-sec div:first-child img:last-child {
+    position: relative;
+    width: 405px;
+    height: 405px;
+    border-radius: 50px;
+    bottom: 55px;
+    left: 109px;
+}
+
+/* designing the second div of feature box */
+
+.feature-sec h1 {
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 0.01em;
+    margin-bottom: 30px;
+}
+
+.feature-sec p {
+    font-weight: 500px;
+    font-size: 18px;
+    color: #585c65;
+    margin-bottom: 40px;
+    max-width: 80%;
+}
+.feature-sec button {
+    font-weight: 700;
+}
+
+/* designing the second feature section */
+
+.second-feature-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-feature-sec div {
+    width: 50%;
+}
+
+.second-feature-sec div:last-child {
+    position: relative;
+
+}
+
+.second-feature-sec div:last-child img:first-child {
+    position: absolute;
+    right: 0;
+    width: 589px;
+    height: 456px;
+    bottom: -220px;
+}
+
+.second-feature-sec div:last-child img:last-child{
+    position: absolute;
+    right: 134px;
+    width: 405px;
+    height: 405px;
+    bottom: -110px;
+    border-radius: 50px;
+}
+
+.second-feature-sec div:first-child {
+    padding: 0 50px;
+}
+
+.second-feature-sec div:first-child h1 {
+    width: 90%;
+}
+
+/* designing the newsletter section */
+
+.letter-box-cont {
+    border-style: none;
+    margin: 100px 70px;
+    border-radius: 50px;
+    background-color: #6663e8;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.letter-box-cont h1 {
+    color: #ffffff;
+    font-size: 60px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.letter-box-cont p {
+    color: #ffffff;
+    margin: 20px 350px;
+    text-align: center;
+}
+
+.letter-box-cont form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form div {
+    /* border: red 2px solid; */
+    width: 28%;
+    height: 40px;
+    background-color: #4f4cfa;
+    border-radius: 18px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+}
+
+form div img {
+    margin-left: 15px;
+    width: 25px;
+}
+
+form div input {
+    background-color: #4f4cfa;
+    border: none;
+    color: #ffffff;
+    
+}
+
+form button {
+    width: 120px;
+    margin-left: 20px;
+    height: 40px;
+    background-color: #ffff;
+    color: #6663e8;
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Footer  */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer div {
+    margin: 20px 0px;
+    padding: 5px;
+  
+}
+
+footer div img {
+    width: 140px;
+    margin: 5px;
+}
+
+.footer-img {
+    width: 30px;
+}
+
+.foot-para {
+    width: 300px;
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    padding: 3px;
+}
+
+/* adding style to right footer links */
+.footer-links {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-around; */
+    gap: 110px;
+}
+
+.footer-list-title {
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
