@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manuplation Part - 3</title>
+</head>
+<body>
+    <!-- Normal HTML -->
+    <h1>Hello, Bacho - PWskillls</h1>
+    <p id="js"></p>
+
+    <button onclick="hey()" id="event">Submit</button>
+
+
+
+    <!-- JavaScript -->
+    <script>
+        // Syntax addEventListner("event", function we want even to happen)
+        document.addEventListener("mouseenter", hello);
+        function hello() {
+            document.getElementById("js").innerText = "Namaste Bacho"
+        }
+        
+        function hey() {
+            document.getElementById("event").innerText = "Namaste";
+            document.getElementById("event").style.color = "red";
+            document.getElementById("event").style.backgroundColor = "black";
+            document.getElementById("event").style.padding = "16px";
+            document.getElementById("event").style.border = "2px solid yellow";
+
+        }
+
+    </script>
+</body>
+</html>
