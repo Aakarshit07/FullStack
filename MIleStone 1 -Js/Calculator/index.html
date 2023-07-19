@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Using Switch</title>
+    <script type="text/javascript">
+        let num1 = prompt("Please enter 1st number");
+        let num2 = prompt("Please enter 2nd number");
+        let opr = prompt("Please select from +, -, x, /");
+        switch(opr){
+            case "+" :
+            let result = parseFloat(num1) + parseFloat(num2);
+            console.log(`${num1} + ${num2} = ${result}`)
+            break;
+
+            case "-" :
+            let result2 = parseFloat(num1) - parseFloat(num2);
+            console.log(`${num1} - ${num2} = ${result}`)
+            break;
+
+            case "*" :
+            let result3 = parseFloat(num1) * parseFloat(num2);
+            console.log(`${num1} * ${num2} = ${result}`)
+            break;
+
+            case "/" :
+            let result4 = parseFloat(num1) / parseFloat(num2);
+            console.log(`${num1} / ${num2} = ${result}`)
+            break;
+        }
+    </script>
+    
+</head>
+<body>
+   <h1>Calculator</h1>
+    
+</body>
+</html>
