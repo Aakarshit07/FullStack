@@ -1,0 +1,33 @@
+.count-app-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4rem;
+    padding: 1rem;
+    height: 28rem;
+    width: 38rem;
+}
+
+.count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.btn button{
+    margin: 2rem 1rem 1rem 1rem;
+    height: 5rem;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+ 
